@@ -1,9 +1,7 @@
-![example workflow](https://github.com/Koreatech-Mongle/chameleon-client/actions/workflows/update-dev-server.yml/badge.svg?branch=develop)
-
 <p align="center"><img src="./assets/logo.png" height="180px" width="250px"></p>
 
 # Chameleon-Platform
-> Client for Chameleon
+> Platform for Chameleon
 
 It's an execution platform that simplifies the testing and deployment of AI models.
 
@@ -20,6 +18,39 @@ It supports the ability to compare the execution results of multiple AI models, 
 |Compare Model|
 |---|
 |<img src="./assets/compare.jpg" height="400px">|
+
+## Project Structure
+
+![project structure](./assets/structure.png)
+
+## How to communicate
+
+![How to communicate](./assets/communication.png)
+
+`__tests__`:
+
+`controller`:
+
+`entities`:
+
+`platform`:
+
+`server`:
+
+`service`:
+
+`types`:
+
+`utils`:
+
+## Prerequisites
+* Linux envrionment
+* Node.js 11.x, `packages.json` dependencies
+## Build Guide (Debian)
+## Deploy Guide (Docker)
+## Live PlayGround
+
+[View Playground](https://dev-client.chameleon.best/)
 
 ## How to Contribute
 1. Clone repository from develop branch and create a new branch
